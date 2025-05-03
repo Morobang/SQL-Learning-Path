@@ -1,1 +1,0 @@
-Limiting results and pagination. 
