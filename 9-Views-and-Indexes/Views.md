@@ -277,14 +277,14 @@ Create a view called `science_students` that shows students who are taking Scien
 DROP VIEW view_name;
 ```
 
-## 📋 Summary: Why You'll Love Views
+## Summary: Why You'll Love Views
 
-1. **Security**: "You can see this, but not that" 🔒
-2. **Simplicity**: "Here's the data you need - no complex queries needed" 👌  
-3. **Consistency**: "Everyone uses the same calculation" 📊
-4. **Organization**: "Keep your database tidy and logical" 🧹
-5. **Time-saving**: "Write once, use many times" ⏰
+1. **Security**: "You can see this, but not that"
+2. **Simplicity**: "Here's the data you need - no complex queries needed"  
+3. **Consistency**: "Everyone uses the same calculation"
+4. **Organization**: "Keep your database tidy and logical"
+5. **Time-saving**: "Write once, use many times"
 
-## 🎉 Congratulations!
+## Congratulations!
 
 You now understand SQL views! Remember: views are like **custom lenses** for your data - they don't change what's there, they just change how you look at it!
