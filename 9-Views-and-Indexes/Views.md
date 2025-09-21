@@ -1,6 +1,6 @@
-# 🎓 SQL Views: Your New Superpower for Databases!
+# SQL Views: Your New Superpower for Databases!
 
-## 👋 Welcome to Views 101!
+## Welcome to Views 101!
 
 **Imagine this:** You're an office manager with a giant filing cabinet (your database). Every time someone needs information, you have to:
 1. Open multiple drawers (tables)
@@ -9,19 +9,19 @@
 4. Make copies
 5. Hand over the results
 
-**With views,** it's like creating pre-made, custom report packets that you can just grab and hand out! 📁
+**With views,** it's like creating pre-made, custom report packets that you can just grab and hand out!
 
-## 🎯 What Exactly IS a View?
+## What Exactly IS a View?
 
 A **view is a saved SQL query** that acts like a virtual table. It doesn't store data itself - it just shows you a specific way of looking at your existing data.
 
-### 🍕 Pizza Analogy
+### Pizza Analogy
 Think of your database as a pizza kitchen:
 - **Tables** = Raw ingredients (dough, cheese, sauce, toppings)
 - **Views** = Pre-made pizzas (Margherita, Pepperoni, Veggie)
 - **You** = The chef who decides what pizzas to offer
 
-## 🏗️ Your First View: Step by Step
+## Your First View: Step by Step
 
 Let's use a simple example with a `students` table:
 
@@ -69,11 +69,11 @@ SELECT * FROM student_directory;
 | 2          | Liam       | Smith     | liam.s@school.edu   |
 | 3          | Olivia     | Williams  | olivia.w@school.edu |
 
-Notice: **No GPA, no birth dates!** 🎉
+Notice: **No GPA, no birth dates!**
 
-## 🎪 Why Views Are Amazing: Real Examples
+## Why Views Are Amazing: Real Examples
 
-### Example 1: Security Guard View 🔒
+### Example 1: Security Guard View
 
 **Problem:** Student workers helping in the office shouldn't see grades or personal info.
 
@@ -96,7 +96,7 @@ SELECT * FROM public_student_info;
 
 **What they DON'T see:** GPAs, birth dates, student IDs! 
 
-### Example 2: Honor Roll View 🏆
+### Example 2: Honor Roll View
 
 **Problem:** Principal wants to easily see students with high GPAs.
 
@@ -116,7 +116,7 @@ SELECT * FROM honor_roll ORDER BY gpa DESC;
 | Emma       | Johnson   | 3.8 |
 | Olivia     | Williams  | 3.5 |
 
-### Example 3: Birthday Calendar 🎂
+### Example 3: Birthday Calendar
 
 **Problem:** Student council wants to plan birthday celebrations.
 
@@ -146,7 +146,7 @@ Think of a view as a **recipe** rather than a pre-cooked meal:
 
 **No data is duplicated!** The view always shows current data from the original table.
 
-## 🆚 View vs. Real Table: What's the Difference?
+## View vs. Real Table: What's the Difference?
 
 | Aspect | Real Table | View |
 |--------|------------|------|
@@ -155,7 +155,7 @@ Think of a view as a **recipe** rather than a pre-cooked meal:
 | **Speed** | Fast to query | Can be slower (runs query each time) |
 | **Updates** | Directly updatable | Sometimes updatable, sometimes not |
 
-## 🚀 Advanced View Example: Report Card Time!
+## Advanced View Example: Report Card Time!
 
 Let's create a more complex example with multiple tables:
 
@@ -203,7 +203,7 @@ JOIN courses c ON g.course_id = c.course_id;
 SELECT * FROM report_cards ORDER BY student_name, course_name;
 ```
 
-## ⚠️ Important Things to Know
+## Important Things to Know
 
 ### 1. Views Can Be Updated (Sometimes)
 ```sql
@@ -251,7 +251,7 @@ WHERE gpa >= 3.0;  -- Changed from 3.5 to 3.0
 SELECT * FROM honor_roll;
 ```
 
-## 🎓 Your Turn to Practice!
+## Your Turn to Practice!
 
 ### Exercise 1: Create a View
 Create a view called `student_emails` that shows only:
@@ -264,7 +264,7 @@ Create a view called `science_students` that shows students who are taking Scien
 
 **Hint:** You'll need to use the `grades` and `courses` tables!
 
-## 💡 Pro Tips for Success
+## Pro Tips for Success
 
 1. **Name views clearly**: `student_directory` vs `view1`
 2. **Start simple**: Create views on single tables first

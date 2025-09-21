@@ -1,8 +1,8 @@
-# 📝 SQL Interview Questions: Complete Study Guide (100+ Questions)
+# SQL Interview Questions: Complete Study Guide (100+ Questions)
 
-## 🎯 Introduction: How to Use This Guide
+## Introduction: How to Use This Guide
 
-This guide contains **100+ SQL questions** organized by difficulty level. Think of it like learning to drive: start with the basics (how to start the car), then move to advanced skills (parallel parking)! 🚗
+This guide contains **100+ SQL questions** organized by difficulty level. Think of it like learning to drive: start with the basics (how to start the car), then move to advanced skills (parallel parking)!
 
 **How to practice:**
 1. Try to solve the question yourself first
@@ -12,7 +12,7 @@ This guide contains **100+ SQL questions** organized by difficulty level. Think 
 
 ---
 
-## 📚 Section 1: Basic SQL Questions (1-25)
+## Section 1: Basic SQL Questions (1-25)
 
 ### 1. What is SQL?
 **Answer:** SQL (Structured Query Language) is a programming language used to manage and query data in relational databases. It's like learning the grammar rules for talking to databases!
@@ -138,7 +138,7 @@ SELECT name AS student_name FROM students;
 
 ---
 
-## 📊 Section 2: Intermediate SQL Questions (26-50)
+## Section 2: Intermediate SQL Questions (26-50)
 
 ### 26. What are SQL joins?
 **Answer:** Joins combine data from two or more tables based on related columns.
@@ -283,7 +283,7 @@ COMMIT;
 
 ---
 
-## 🚀 Section 3: Advanced SQL Questions (51-75)
+## Section 3: Advanced SQL Questions (51-75)
 
 ### 51. What are window functions?
 ```sql
@@ -424,7 +424,7 @@ SELECT name FROM students WHERE grade > ALL (SELECT grade FROM class_bottom);
 
 ---
 
-## 💡 Section 4: Scenario-Based Questions (76-100)
+## Section 4: Scenario-Based Questions (76-100)
 
 ### 76. How would you find the second highest salary?
 ```sql
